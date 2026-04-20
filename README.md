@@ -1,5 +1,5 @@
- #Speech Emotion Detector
-##Project Overview
+# Speech Emotion Detector
+## Project Overview
 This end-to-end Machine Learning application classifies human emotions from speech using Digital Signal Processing (DSP) and Support Vector Machines (SVM). Developed as part of a curriculum focusing on Signal Processing and ML (Units IV–V), the tool allows users to upload .wav audio files and receive instant emotional classification.
 
 It distinguishes between:
@@ -8,7 +8,7 @@ Negative Emotions: Angry, Fearful, Disgusted, and Surprised.
 
 Neutral/Positive Emotions: Calm, Happy, and Neutral.
 
-##Technical Stack
+## Technical Stack
 Frontend: HTML5, CSS3 (Modern UI with Glow effects/Grid background), and JavaScript using the Fetch API.
 
 Backend: Python-based Flask server.
@@ -17,7 +17,7 @@ Signal Processing: Librosa and SciPy (specifically for Butterworth filtering).
 
 Machine Learning: Scikit-learn (SVM Classifier) and NumPy.
 
-##Key Technical Features
+## Key Technical Features
 Signal Pre-processing: Implements a Butterworth bandpass filter (300Hz to 3500Hz) to isolate human speech and reduce ambient noise.
 
 Feature Extraction: Utilizes Mel-Frequency Cepstral Coefficients (MFCCs) with a Hamming window to extract 40 specific acoustic features.
